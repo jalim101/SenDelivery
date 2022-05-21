@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+}
+{% endblock %}
+{% block body %}
+
+<br>
+<b><h1><center>Детали вашего заказа</center></h1></b>
+<br>
+
+<div class="container">
+<ul class="list-group" style=" ">
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:rgb(53, 186, 219)">
+        <u><b>Номер заказа</b></u> <u><b>Имя заказа</b></u> <u><b>Дата и время доставки</b></u> <u><b>Количество</b></u>
+    </li>
+    {% for order in orders %}
+    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:rgb(171, 241, 209)">
+         <b><center>{{order.order_id}}</center></b> <a href="/user/order_details/{{order.order_id}}/" style="color:rgb(231, 91, 35)"><u><b>{{order.cuisine.name}}</b></u></a>
+        <b><center>{{order.delivery_datetime}}</center></b>
+          <span class="badge badge-primary badge-pill">{{order.quantity}}</span>
+    </li>
+    {% endfor%}
+   <br>
+
+<!--    <a href="{% if order %}/order/order_history/deleteall{% else %}/user/history/{% endif %}" title="will only delete orders record, pending orders will still be processed""><button type="submit" class="btn btn-primary" style="position: center">Удалить запись</button></a>-->
+
+</div>
+
+{% endblock %}

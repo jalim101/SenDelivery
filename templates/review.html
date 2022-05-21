@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+  
+}
+{% endblock %}
+{% block body %}
+<br><br>
+<center><b><h2>Обратная связь</h2></b></center>
+<br>
+
+<div class="container">
+<form action="/review/thanksnote/" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+        <center><b><u><label for="exampleFormControlTextarea1" style="font-size:25px">Написать отзыв</label></u></b></center>
+        <center><textarea name="review" class="form-control" style="margin-top: 20px; background-color:aliceblue; border-color:gray; border-radius: 15px; height: 200px; " id="exampleFormControlTextarea1" rows="15"></textarea></center>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="stars" id="exampleRadios1" value="Unmatchable" >
+        <label class="form-check-label" for="exampleRadios1">
+          Отлично
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="stars" id="exampleRadios3" value="Good" checked>
+        <label class="form-check-label" for="exampleRadios3">
+          Хорошо
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="stars" id="exampleRadios4" value="Average" >
+        <label class="form-check-label" for="exampleRadios4">
+          Пойдет
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="stars" id="exampleRadios5" value="Bad" >
+        <label class="form-check-label" for="exampleRadios5">
+          Плохо
+        </label>
+      </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="stars" id="exampleRadios6" value="Worst" >
+          <label class="form-check-label" for="exampleRadios6">
+            Ужасно
+          </label>
+        </div>
+
+  <br>
+      <center><button type="submit" class="btn btn-primary">Отправить отзыв</button></center>
+</form>
+</div>
+{% endblock %}

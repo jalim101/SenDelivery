@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+
+}
+{% endblock %}
+{% block body %}
+<div class="alert alert-danger alert-dismissible fade show" style="height:50px;"  role="danger">
+  Пожалуйста, сделайте предзаказ
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<br>
+<br>
+<div class="container">
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Название позиции</th>
+        <th scope="col">Цена</th>
+        <th scope="col">Доставка</th>
+        <th scope="col">Адрес доставки</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{dish.name}}</th>
+        <td>{{price}}</td>
+        <td>+200 тг</td>
+        <td>{{client.address}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <form action="placed/{{dish.name}}" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+        <div class="form-control">
+            <label for="orderquantity" style="color:black"><b>Количество</b></label>
+            <input type="number" id="orderquantity" required value=1 name="quantity">
+        </div>
+    </div>
+      <br>
+
+    <div class="form-group">
+
+                <div class="form-control">
+            <label for="delivery-date"><b>Дата доставки</b></label>
+            <input type="date" id="delivery-date" required name="delivery-date">
+        </div>
+        <div class="form-control">
+            <label for="delivery-time"><b>Время доставки</b></label>
+            <select name="delivery-time" id="delivery-time" required>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>
+                <option value="21:00">21:00</option>
+            </select>
+        </div>
+    </div>
+
+    <input class="btn btn-primary" type="submit" value="Заказать">
+</form>
+</div>
+
+    <script>
+    document.getElementById('delivery-date').valueAsDate = new Date();
+    </script>
+
+{% endblock %}

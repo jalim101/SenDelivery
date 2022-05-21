@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+}
+{% endblock %}
+{% block body %}
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    {% for message in messages %}
+    <strong>{{ message }}</strong>
+    {% endfor %}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <a href="\"><button type="submit" class="btn btn-primary" style="margin-left:700px; margin-top:180px;">Вернуться на главную страницу</button></a>
+{% endblock %}

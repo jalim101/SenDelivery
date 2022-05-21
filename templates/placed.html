@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+}
+{% endblock %}
+{% block body %}
+<br><br>
+
+<center>
+  <div class="container" style="border-color:rgb(250, 252, 228)">
+<h2>Спасибо, {{client.user.username }}, за покупку у нас!</h2>
+<h3>Итоговая сумма заказа вместе с доставкой 200 тг - {{total_price}} тг</h3>
+<h3>Адрес доставки: {{client.address}}</h3>
+<h3>Идентификатор заказа: {{order.order_id}}</h3>
+<h4>Ваш заказ размещен и прибудет к вам в назначенное время.</h4>
+</div>
+  <a href="/user/history/"><button type="submit" class="btn btn-primary" style="margin-left:10px; margin-top:40px;">Информация о заказе</button></a>
+
+</center>
+{% endblock %}

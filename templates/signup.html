@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+label
+{
+font-weight:bold;
+}
+body
+{
+}
+.container{
+width:300px;
+}
+
+{% endblock %}
+{% block body %}
+{% if  messages %}
+<div class="alert alert-danger alert-dismissible fade show" style="height:50px;"  role="alert">
+    {% for message in messages %}
+   
+    <strong>Предупреждение!</strong> {{ message }}
+
+{% endfor %}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+   
+{% endif %}
+
+
+<div class="container">
+    <center><form style="margin-top:40px; padding:10px ;background-color:beige;" action='/user/signup/' enctype='multipart/form-data' method='post'></center>
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="username">Имя пользователя</label>
+            <input type="text" name="username" class="form-control" required maxlength=13 id="username">
+            <small id="username"  style="color:black">
+              
+                Длина не должна превышать 13 символов.
+            </small>
+          </div>
+         
+          <div class="form-group">
+            <label for="inputEmail4">Электронный адрес</label>
+            <input type="email" name="email" class="form-control" required id="inputEmail4">
+          </div>
+        
+           
+            <div class="form-group">
+              <label for="inputPassword4">Пароль</label>
+              <input type="password" name="password" class="form-control" maxlength="20" minlength="4" required id="inputPassword4">
+              <br>
+              <script>
+                function myFunction() {
+                    var x = document.getElementById("inputPassword4");
+                    if (x.type === "password") {
+                      x.type = "text";
+                    } else {
+                      x.type = "password";
+                    }
+                  }
+              </script>
+              <script>
+                function myFunction2() {
+                    var x = document.getElementById("inputPassword5");
+                    if (x.type === "password") {
+                      x.type = "text";
+                    } else {
+                      x.type = "password";
+                    }
+                  }
+              </script>
+              <input type="checkbox" onclick="myFunction()">Посмотреть пароль
+              <div class="valid-feedback">
+                Выглядит неплохо!
+              </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword5">Повторите пароль</label>
+                <input type="password" name="repassword" class="form-control" maxlength="20" minlength="4" required id="inputPassword5">
+            
+          <br>
+            <input type="checkbox" onclick="myFunction2()">Посмотреть пароль
+              </div>
+        
+          <div class="form-group">
+            <label for="inputAddress">Номер телефона</label>
+            <input type="text" pattern="[0-9]{10,13}"  title="Пожалуйста, введите действительный номер телефона" maxlength=12 name="phone" class="form-control" required id="inputAddress" placeholder="Введите номер телефона">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Адрес доставки</label>
+              <select id="inputAddress" name="address" required class="form-control">
+                <option selected>AlmaU (Розыбакиева 227)</option>
+              </select>
+          </div>
+         
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Город</label>
+              <input type="text" name="city" class="form-control" required id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">Регион</label>
+              <select id="inputState" name="state" required class="form-control">
+                <option selected>Almaty</option>
+              </select>
+            </div>
+           
+          </div>
+          <div class="form-group ml-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="prime" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Пока всё нравится
+              </label>
+            </div>
+          </div>
+          <div class="form-group" style=" ">
+            <div class="custom-file">
+              <input type="file" name="image" class="custom-file-input" id="customFile">
+              <label class="custom-file-label" for="customFile">Выберите изображение профиля</label>
+            </div>
+          </div>
+    <br>
+          <center><button type="submit" class="btn btn-primary">Зарегистрироваться</button></center>
+      </form>
+    </div>
+
+    <br><br>
+    <center><a href="/user/login/" style="color:black ;background-color:aliceblue">У вас есть аккаунт? Войти</a></center>
+  
+
+{% endblock %}

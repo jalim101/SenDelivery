@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+}
+    .form-group
+    {
+        width:300px;
+        margin: auto;
+    }
+    
+
+{% endblock %}
+{% block body %}
+{% if messages %}
+<div class="alert alert-danger alert-dismissible fade show" style="height:50px;"  role="alert">
+    {% for message in messages %}
+   
+     {{ message }}
+      
+{% endfor %}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  {% endif %}
+   <div class="container">
+<center><form action="/user/login/" method="post" style="margin-top: 90px; width:60%; height: 80%;"></center>
+    {% csrf_token %}
+  
+   
+    <div class="form-group">
+      <b><center><label for="username">Имя пользователя</label></center></b>
+      <input class="form-control" type="text"id="username" name="username" required placeholder="Enter username">
+    </div>
+        <br>
+   <div class="form-group">
+    <b><center> <label for="password">Пароль</label></center></b>
+        <input class="form-control" id="password" type="password" name="password" required placeholder="Enter password">
+      </div>
+       <br>
+      <center><button type="submit" class="btn btn-primary" style="">Войти</button></center>
+      </div>
+   <br>
+      <center><a href="/user/signup/" style="">Нет аккаунта? Зарегистрироваться</a></center>
+    
+ 
+
+
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+
+}
+textarea:focus
+{ 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+{% endblock %}
+
+
+
+{% block body %}
+<br><br><br>
+
+<center ><b><h1 ><b><span  style="font-family: verdana">О НАС</span></b></h1></b></center>
+
+<br><br><br>
+
+<center><textarea name=""  style="font-family: verdana; font-size: 30px;  " cols=40 rows=6 id="demo" ></textarea></center>
+
+<br><br><br>
+<center ><b><h1 ><b><span  style="font-family: verdana">Обратная связь</span></b></h1></b></center>
+
+<br><br><br>
+
+<center><textarea name=""  style=" font-family: verdana; font-size: 30px;  " cols=40 rows=6 id="demo2" ></textarea></center>
+
+<script>
+  
+  var i = 0;
+  var j = 0;
+  var txt = 'SenDelivery разработан специально для AlmaU, обеспечит Вам доставку из кафе Izumi в назначенное время и оставит в полном восторге! Делайте предзаказ - мы всё привезём!'
+
+  var txt2= 'Мы будем рады получить Ваши отзывы в разделе "Оцените нас"'
+  var speed = 50; 
+  function typeWriter()
+{
+  
+  if (i < txt.length)
+   {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+function typeWriter2()
+{
+  
+  if (j < txt2.length)
+   {
+    document.getElementById("demo2").innerHTML += txt2.charAt(j);
+    j++;
+    setTimeout(typeWriter2, speed);
+  }
+}
+  window.onload = function type()
+  
+  {
+
+typeWriter();
+typeWriter2();
+
+  };
+</script>
+<div class="container" style=" margin-top:100px;">
+<center><b style="font-size: 20px;">Eсть вопросы? </b></center>
+<center><u><a href="Sen.delivery@gmail.com" style="color:rgb(102, 33, 6);font-size:20px; background-color:aliceblue">Отправьте письмо</a></center>
+</u>
+</div>
+{% endblock %}

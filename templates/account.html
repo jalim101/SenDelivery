@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+body
+{
+}
+.container{
+width: 250px;
+
+}
+{% endblock %}
+{% block body %}
+<br>
+
+<b><center><h3 style="color:black" >Данные пользователя</h3></center></b>
+
+<br>
+<center><a href="{{client.image.url}}"><img src="{{client.image.url}}" style="border:2px solid; border-color:hsl(44, 100%, 50%); width:200px; height:200px"></a></center>
+
+<br>
+<center><div class="container">
+  <table class="table table-light">
+      <thead>
+        <tr>
+          <th scope="col" style="color:black">Имя пользователя</th>
+          <th scope="col">{{client.user.username}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col" style="color:black">Электронный адрес</th>
+          <th scope="col">{{client.user.email}}</th>
+        </tr>
+        <tr>
+          <th scope="col" style="color:black">Номер телефона</th>
+          <th scope="col">{{client.phone}}</th>
+      
+        </tr>
+        <tr>
+          <th scope="col" style="color:black">Адрес</th>
+          <th scope="col">{{client.address}}</th>
+      
+        </tr>
+        <tr>
+          <th scope="col" style="color:black">Город</th>
+          <th scope="col">{{client.city}}</th>
+      
+        </tr>
+        <tr>
+          <th scope="col" style="color:black">Регион</th>
+          <th scope="col">{{client.state}}</th>
+      
+        </tr>
+        
+      </tbody>
+    </table>
+    <br>
+    <center><a href="/user/edit"><button type="submit" class="btn btn-primary" style="">Редактировать</button></a></center>
+  
+  </div></center>
+{% endblock %}
