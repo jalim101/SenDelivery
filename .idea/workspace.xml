@@ -1,212 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10463f24-785d-450a-9fc8-3103cf9f7a9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/._.idea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._.venv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._Dish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._FoodApp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._Order" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._Review" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._cust" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._media" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._static" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/._templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="10463f24-785d-450a-9fc8-3103cf9f7a9a" name="Default Changelist" comment="deleted some of unused files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/.___init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/.___pycache__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/._admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/._apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/._migrations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/._models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/._tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/._urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/._views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0002_auto_20201117_1304.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0003_auto_20201117_1306.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0004_auto_20201117_1308.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0005_auto_20201117_1311.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0006_auto_20201117_1313.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0007_auto_20201117_1352.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0008_auto_20201117_1410.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0009_auto_20201117_2216.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0010_auto_20201117_2217.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/._0011_mymodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/.___init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dish/migrations/.___pycache__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodApp/.___init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodApp/.___pycache__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodApp/._asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodApp/._settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodApp/._urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodApp/._views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodApp/._wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/.___init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/.___pycache__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/._admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/._apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/._migrations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/._models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/._tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/._urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/._views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0002_auto_20201124_2242.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0003_auto_20201125_1022.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0004_auto_20201125_1032.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0005_auto_20201125_1033.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0006_auto_20201125_1039.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0007_order_quantity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0008_order_placed_time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0009_auto_20201126_1619.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0010_auto_20201126_1629.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0011_order_delivery_time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0012_order_total_price.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0013_auto_20201126_1747.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0014_auto_20201126_1917.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0015_order_delivery_datetime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0016_remove_order_delivery_datetime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0017_order_delivery_datetime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/._0018_mymodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/.___init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/migrations/.___pycache__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/.___init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/.___pycache__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/._admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/._apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/._migrations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/._models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/._tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/._urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/._views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/.___init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/.___pycache__" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/._admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/._apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/._migrations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/._models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/._tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/._urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cust/._views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/._clients" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/._dishes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._Django_FoodApp__C__Users_User_AppData_Local_Programs_Python_Python38-32_L_zuyprsz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._FinalImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._Finallmage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._MainDragon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._blank.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._blank_5On1H2B.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._collection-of-handrawn-elements-fast-food.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._guruji.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._iPhone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._iPhone_VfWWoBo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._iPhone_iTHtFqh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._iPhone_uBiBxmR.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/clients/images/._латте.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._cartoonframe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._kuritsa-s-gribami-pure.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._бризоль.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._греческий_салат.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._завтрак-по-английский.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._латте.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/dishes/images/._милкшейк.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/._CSS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/._Images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._FinalImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._Finallmage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._MainDragon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._aboutus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._account.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._account2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._blank.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._cartoonframe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._collection-of-handrawn-elements-fast-food.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._hachapuri-po-adjarski.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._hachapuri.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._ham.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._history2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._http___cdn.cnn.com_cnnnext_dam_assets_170203114255-banana-split.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._hungyl (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._kuritsa-s-gribami-pure.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._login.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._logout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._mix-gril-miasnoy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._orderdetails.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._orderpage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._placed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._plov-izumi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._purchase.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._review.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._rybniy-mix.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._unnamed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._бризоль.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._бургер.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._вупи пай.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._греческий салат.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._гуйру лагман.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._жаренные чим чуки.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._завтрак-по-английский.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._казан кебаб.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._кортошка фре.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._красный бархат.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._лагман по домашнему.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._лагман-изуми.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._лапша-по-домашнему.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._латте.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._лимонад.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._лимонад1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._манпар.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._милкшейк.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._молочная девочка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._морожоное.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._окрошка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._орое милкшейк.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._партизанская блюда.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._пельмены.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._пицца.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._плов.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._рибай-стейк-с-соусом-демиглас.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._рыбный-стейк.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._самса.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._сегма-в-фольге.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._селедка под шуюой.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._сникерс десерт.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._суп.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._сырные палочки.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._тущенная.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._тущенная_блюда.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._цезарь.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._чай с грейфрутами.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/._шашлык.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._aboutus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._account.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._history.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._logout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._order_details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._placed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._purchase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._review.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/._thanksnote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dish/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dish/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FoodApp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,10 +35,22 @@
       <workItem from="1652325925511" duration="637000" />
       <workItem from="1652326703433" duration="4170000" />
     </task>
+    <task id="LOCAL-00001" summary="deleted some of unused files">
+      <created>1653141562403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653141562403</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted some of unused files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted some of unused files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653141243625">
@@ -263,6 +73,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1653137847480" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1653141591499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1653141591499" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1653066628167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

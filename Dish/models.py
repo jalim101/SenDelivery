@@ -34,4 +34,4 @@ class MainDish(models.Model):
 
 # class Cust_Cuisine(models.Model):
 # 	user=models.OneToOneField(User,on_delete=models.CASCADE)
-# 	cuisine=models.OneToOneField(MainDish,on_delete=models.CASCADE)
+# 	cuisine=models.OneToOneField(MainDish,on_delete=models.CASCADE) password digitalocean illKer_0000_alima
